@@ -14,7 +14,7 @@ list.sort()
 print('Updated Daily Tasks:', list)
 
 # Tuple:
-tuple = ('Tessie', 'Kevin', 'Reymart', 'Jeus', 'Ayana', 'Paupau')
+tuple = ('Tessie', 'Kevin', 'Reymart', 'Jeus', 'Ayana',)
 print(tuple)
 # Try modifying one element
 # tuple[3] = 'Jonathan'

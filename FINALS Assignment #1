@@ -1,0 +1,45 @@
+# Operations
+# Perform the following:
+
+# List:
+list = ['wash face', 'brush teeth',
+        'eat breakfast', 'use computer', 'play games']
+print(list)
+# Add 1 new item
+list.append('read a book')
+# Remove 1 item
+list.remove('wash face')
+# Sort the list
+list.sort()
+print('Updated Daily Tasks:', list)
+
+# Tuple:
+tuple = ('Tessie', 'Kevin', 'Reymart', 'Jeus', 'Ayana')
+print(tuple)
+# Try modifying one element
+# tuple[3] = 'Jonathan'
+# Explain what happens:
+# This will give us an error because tuples are immutable
+# Python will say 'TypeError: 'tuple' object does not support item assignment'
+
+# Set:
+set = {1, 2, 3, 4, 5}
+print(set)
+# Add a value
+set.add(6)
+# Remove a value
+set.remove(3)
+# Print the updated set
+print('Numbers', set)
+
+# Dictionary:
+my_dict = {
+    'name': 'Kevin Dave O. Peregrino',
+    'age': 19,
+}
+# Add a new key "grade"
+my_dict['grade'] = '90'
+# Update your "age"
+my_dict['age'] = 19
+# Print all keys
+print('Keys:', my_dict.keys())

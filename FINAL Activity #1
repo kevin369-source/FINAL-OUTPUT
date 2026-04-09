@@ -1,15 +1,46 @@
+# Part 1: Identify & Create (Warm-up)
 # Create the following data structures based on the given scenarios.
 
 # A tuple of 5 favorite fruits
 fruits_tuple = ('apple', 'banana', 'mango', 'grapes', 'pineapple')
 # A list of 5 daily tasks
-daily_tasks_list = ['wash faces', 'brush teeth',
-                    'eat breakfast', 'use computer', 'play games']
+daily_tasks_list = ['wash faces', 'brush teeth', 'eat breakfast', 'use computer', 'play games']
 # A set of unique numbers from this list: [1, 2, 2, 3, 4, 4, 5]
 unique_numbers_set = set([1, 2, 2, 3, 4, 4, 5])
 # A dictionary with keys: "name", "age", "course"
 my_info_dict = {
     'name': 'Kevin Dave',
     'age': 19,
-    'course': 'BS Information Technology',
+    'course': 'Information Technology',
 }
+# Part 2: Manipulation Challenge
+# Instructions: Perform the following operations:
+# List Tasks:
+
+# Add a new task
+daily_tasks_list.append('go to school')
+# Remove one task
+daily_tasks_list.remove('eat breakfast')
+# Sort the list
+daily_tasks_list.sort()
+print('Updated Daily Tasks:', daily_tasks_list)
+
+# What happens? - Python will says 'TypeError'
+# Explain. - Tuples are immutable, meaning we cant change their content after they are created. they do not support item assignment.
+
+# Set Tasks:
+# Add a number
+unique_numbers_set.add(6)
+# Remove a number
+unique_numbers_set.remove(3)
+# Show how duplicates are removed
+print('Unique Numbers:', unique_numbers_set)
+
+# Dictionary Tasks:
+# Add a new key "grade"
+my_info_dict['grade'] = '90'
+# Update "age"
+my_info_dict['age'] = 19
+# Print all keys and values
+for key, value in my_info_dict.items():
+    print(f"{key}: {value}")

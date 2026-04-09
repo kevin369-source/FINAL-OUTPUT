@@ -1,0 +1,15 @@
+# Create the following data structures based on the given scenarios.
+
+# A tuple of 5 favorite fruits
+fruits_tuple = ('apple', 'banana', 'mango', 'grapes', 'pineapple')
+# A list of 5 daily tasks
+daily_tasks_list = ['wash faces', 'brush teeth',
+                    'eat breakfast', 'use computer', 'play games']
+# A set of unique numbers from this list: [1, 2, 2, 3, 4, 4, 5]
+unique_numbers_set = set([1, 2, 2, 3, 4, 4, 5])
+# A dictionary with keys: "name", "age", "course"
+my_info_dict = {
+    'name': 'Kevin Dave',
+    'age': 19,
+    'course': 'BS Information Technology',
+}

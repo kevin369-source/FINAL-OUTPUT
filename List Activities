@@ -1,0 +1,78 @@
+# 1. Basic List Activities
+# Activity 1: Create a List
+# Task: Create a list of 3 fruits and print it
+from ast import List
+
+
+fruits_1 = ["apple", "banana", "orange"]
+print(fruits_1)
+
+# Activity 2: Access Items
+# Task: Print the first and last item
+fruits_2 = ["apple", "banana", "cherry"]
+print(fruits_2[0])  # First item
+print(fruits_2[2])  # Last item
+
+# Activity 3: List Length
+# Task: Print how many items are in the list
+colors_1 = ["red", "blue", "green", "yellow"]
+print(len(colors_1))
+
+# 2. Modify Lists
+# Activity 4: Change Item
+# Task: Replace "banana" with "orange"
+fruits_3 = ["apple", "banana", "cherry"]
+fruits_3[1] = "orange"
+print(fruits_3)
+
+# Activity 5: Add Items
+# Task:
+# Add "mango" to the list
+# Insert "grape" at index 1
+fruits_4 = ["apple", "banana"]
+fruits_4.append("mango")
+fruits_4.insert(1, "grape")
+print(fruits_4)
+
+# Activity 6: Remove Items
+#  Task:
+# Remove "banana"
+# Remove last item
+fruits_5 = ["apple", "banana", "cherry"]
+fruits_5.remove("banana")
+fruits_5.pop()
+print(fruits_5)
+
+# 3. Looping Through Lists
+# Activity 7: For Loop
+# Task: Print each item
+animals = ["dog", "cat", "bird"]
+for animal in animals:
+    print(animal)
+
+# Activity 8: With Index
+#  Task: Print index and value
+numbers_1 = [10, 20, 30]
+for index, number in enumerate(numbers_1):
+    print(f"{index}, {number}")
+
+
+# 4. List Operations
+# Activity 9: Check if Item Exists
+fruits = ["apple", "banana", "cherry"]
+if "banana" in fruits:
+    print("Yes, 'banana' is in the list:3")
+
+# Activity 10: Sorting
+numbers = [5, 2, 9, 1]
+# Sort ascending
+numbers.sort()
+print(numbers)
+# Sort descending
+numbers.sort(reverse=True)
+print(numbers)
+
+# Activity 11: Copy List
+list1 = ["a", "b", "c"]
+list2 = list1.copy()
+print(f"list2: {list2}")

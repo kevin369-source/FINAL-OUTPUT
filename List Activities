@@ -1,9 +1,7 @@
+from ast import List
 # 1. Basic List Activities
 # Activity 1: Create a List
 # Task: Create a list of 3 fruits and print it
-from ast import List
-
-
 fruits_1 = ["apple", "banana", "orange"]
 print(fruits_1)
 

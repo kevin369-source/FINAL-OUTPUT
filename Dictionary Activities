@@ -1,0 +1,33 @@
+# Activity 1: Fill in the Blanks
+student = {
+    "name": "Ana",
+    "age": 20,
+    "course": "IT"
+}
+print(student["name"])
+
+# Activity 2: Add and Update
+students = {"name": "Ana", "age": 21}
+
+students["grade"] = 95
+print(students)
+
+
+# Activity 3: Loop Through Dictionary
+
+car = {"brand": "Toyota", "model": "Corolla", "year": 2020}
+for key, value in car.items():
+    print(f"{key}: {value}")
+
+# Activity 4 (Challenge): Mini Phonebook
+# Create a dictionary of 3 people and their phone numbers, then:
+# - ask user for a name
+# - print the number
+
+# Creating a Dictionary
+phonebook = {
+    "Tessie": "09062749570",
+    "Pauleen": "09274686824",
+    "Reymart": "09950715456"
+}
+print(phonebook)

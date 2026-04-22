@@ -1,0 +1,33 @@
+# Activity 1: Remove Duplicates
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+# Convert to set and print unique values
+unique_numbers = set(numbers)
+print("Unique numbers:", unique_numbers)
+
+# Activity 2: Add and Remove
+fruits = ["apple", "banana"]
+fruits.append("orange")
+fruits.remove("banana")
+print(fruits)
+
+# Activity 3: Set Operations
+A = {1, 2, 3}
+B = {3, 4, 5}
+# Union
+print("Union:", A | B)
+# Intersection
+print("Intersection:", A & B)
+
+# Activity 4 (Challenge): Common Students
+# Given
+classA = {"John", "Ana", "Mark"}
+classB = {"Ana", "Mark", "Liza"}
+
+# Task:
+# Find students in BOTH classes
+both_students = classA.intersection(classB)
+print("Students in both classes:", both_students)
+# Find ALL students
+all_students = classA.union(classB)
+print("All students:", all_students)
